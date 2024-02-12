@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+#yes-btn {
+    background-color: #1baa46;
+    transform-origin: top right;
+}
+#yes-btn:hover {
+    background-color: #40c769;
+}
+#no-btn {
+    background-color: #d1342c;
+}
+#no-btn:hover {
+    background-color: #e6554e;
+}
+.btn-container {
+    display: inline-block;
+}
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+}
